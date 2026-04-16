@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dehuroad Weather Dashboard</title>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+<h1>Dehuroad Weather Dashboard w.e.f (13/04/26 - 19/04/26)</h1>
+<h3>Based on Joel's Forecasting</h3>
+
+<div class="container">
+
+    <!-- Temperature Chart -->
+    <div class="card">
+        <h3>Temperature (°C)</h3>
+        <canvas id="tempChart"></canvas>
+    </div>
+
+    <!-- Humidity Chart -->
+    <div class="card">
+        <h3>Humidity (%)</h3>
+        <canvas id="humidityChart"></canvas>
+    </div>
+
+    <!-- Rainfall Chart -->
+    <div class="card">
+        <h3>Rainfall (mm)</h3>
+        <canvas id="rainChart"></canvas>
+    </div>
+
+</div>
+
+<script src="script4.js"></script>
+
+</body>
+</html>
