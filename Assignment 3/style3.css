@@ -1,0 +1,41 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.card {
+    margin: 15px 0;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Cart Sidebar */
+.cart {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: white;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    overflow-y: auto;
+}
+
+.cart.active {
+    right: 0;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
