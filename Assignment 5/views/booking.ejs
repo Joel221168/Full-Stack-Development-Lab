@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Your Trip</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<h1>Travel Booking Form</h1>
+
+<form action="/booking" method="POST">
+
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Email</label>
+<input type="email" name="email" required>
+
+<label>Destination</label>
+<select name="destination">
+<option>Paris</option>
+<option>Dubai</option>
+<option>Bali</option>
+</select>
+
+<label>Number of Persons</label>
+<input type="number" name="persons">
+
+<button type="submit">Book Now</button>
+
+</form>
+
+</body>
+</html>
