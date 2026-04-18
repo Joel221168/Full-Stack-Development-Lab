@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Appointments</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<h1>All Appointments</h1>
+
+<table border="1" align="center">
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Service</th>
+<th>Date</th>
+</tr>
+
+<% appointments.forEach(a => { %>
+<tr>
+<td><%= a.name %></td>
+<td><%= a.email %></td>
+<td><%= a.service %></td>
+<td><%= a.date %></td>
+</tr>
+<% }) %>
+
+</table>
+
+</body>
+</html>
